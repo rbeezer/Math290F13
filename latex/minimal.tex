@@ -1,0 +1,54 @@
+% A small LaTeX file with some examples in it
+\documentclass[12pt]{article}
+% The 12pt option will make text bigger than 10pt default
+
+% Essential math packages
+\usepackage{amsmath,amssymb}
+
+% Control page size
+\usepackage{geometry}
+\geometry{letterpaper,total={6.5in,9in}}
+
+% Headings, per page
+\markright{Some Student, SLE-1}
+\pagestyle{headings}
+
+
+\begin{document}
+
+% Title, of sorts
+\begin{center}
+{\Large Proof SLE-1}\\
+Some Student\\
+Math 290C\quad\quad Fall 2013
+\end{center}
+
+
+Pythagorean Theorem is: \(a^2 + b^2 = c^2\)
+
+Display math: \[x^2+y^2=\tan(xy^4)\]
+
+A matrix:
+\(\begin{bmatrix}
+6 & 7 & 8\\
+-7 & -9 & 0
+\end{bmatrix}\)
+
+A column vector:
+\(\begin{pmatrix}
+3\\
+8\\
+-5\\
+2
+\end{pmatrix}\)
+
+A sequence of equalities and explanations, perhaps used in a proof.
+\begin{align*}
+x^2 &= y^3 && \text{Just because}\\
+&= t_8 && \text{Why not?}\\
+&= 0 && \text{Obvious (isn't it?)}
+\end{align*}
+
+
+\end{document}
+%sagemathcloud={"zoom_width":100}
