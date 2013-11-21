@@ -1,3 +1,4 @@
+*.syncdoc
 *.sage-backup
 *.sage-chat
 *.acn
